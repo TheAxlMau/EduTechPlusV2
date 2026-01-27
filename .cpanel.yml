@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/eductech/public_html/
+    - /bin/cp -r Frontend/* $DEPLOYPATH
+    - /bin/cp -r Backend/ /home2/eductech/Backend/
